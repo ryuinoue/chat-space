@@ -47,7 +47,7 @@ Things you may want to cover:
 - belongs_to :groups
 - belongs_to :users
 
-##users Table
+## users Table
 
 |Column|Type|Options|
 |------|----|-------|
@@ -60,7 +60,7 @@ Things you may want to cover:
 - has_many :messages
 - has_many :members
 
-##groups Table
+## groups Table
 
 |Column|Type|Options|
 |------|----|-------|
