@@ -48,6 +48,7 @@ Things you may want to cover:
 - belongs_to :users
 
 ##users Table
+
 |Column|Type|Options|
 |------|----|-------|
 |name|string|index:true,null:false,unique:true|
@@ -59,7 +60,8 @@ Things you may want to cover:
 - has_many :messages
 - has_many :members
 
-##gruops Table
+##groups Table
+
 |Column|Type|Options|
 |------|----|-------|
 |gruop|string|index:true,null:false,unique:true|
