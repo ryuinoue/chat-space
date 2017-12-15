@@ -31,8 +31,8 @@ Things you may want to cover:
 |group_id|integer|null: false, foreign_key: true|
 
 ### Association
-- belongs_to :groups
-- belongs_to :users
+- belongs_to :group
+- belongs_to :user
 
 ## message Table
 
@@ -44,15 +44,15 @@ Things you may want to cover:
 |group_id|integer|null: false, foreign_key: true|
 
 ### Association
-- belongs_to :groups
-- belongs_to :users
+- belongs_to :group
+- belongs_to :user
 
 ## users Table
 
 |Column|Type|Options|
 |------|----|-------|
 |name|string|index:true,null:false,unique:true|
-|mail|string|null:false,unique:true|
+
 
 
 ### Association
@@ -64,5 +64,5 @@ Things you may want to cover:
 
 |Column|Type|Options|
 |------|----|-------|
-|gruop|string|index:true,null:false,unique:true|
+|name|string|index:true,null:false,unique:true|
 
