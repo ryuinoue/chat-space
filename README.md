@@ -53,8 +53,6 @@ Things you may want to cover:
 |------|----|-------|
 |name|string|index:true,null:false,unique:true|
 
-
-
 ### Association
 - has_many :groups,through:members
 - has_many :messages
@@ -65,4 +63,6 @@ Things you may want to cover:
 |Column|Type|Options|
 |------|----|-------|
 |name|string|index:true,null:false,unique:true|
-
+- has_many :users,through:members
+- has_many :messages
+- has_many :members
